@@ -1,0 +1,432 @@
+---
+title: "Wildco_Occurence_Data_Multiple_Sites"
+author: "Liam Brennan"
+date: "2024-01-09"
+output: html_document
+---
+
+
+```{r}
+#Occurrence data from all sites (adapted from Wildco's Data Exploration Script)
+
+#This markdown file can be used to find all occurrences of species within the Wildco online database (after downloading). Please check with Cole and other project leads before sharing data with external parties. This script uses the RAW DATA downloaded from the Wildco database. For those who are familiar with Wildco's single site exploration script, this combines the data standardization script and pieces of the single site exploration script to create species occurrence data across multiple sites. The script may take a few minutes or more to run depending on how many projects and which species you are interested in.
+
+### 0. Initialize #### #######################################
+library(tidyr)
+library(dplyr)
+library(readr)
+library(lubridate)
+library(leaflet)
+library(purrr)
+
+# Set WD if not working in an R project (you should be!)
+#setwd("~/Desktop/R/UBC_Wildco_DataManagement/")
+```
+
+
+```{r}
+#TO BE UPDATED BY USER -  Specify species/location of interest (both can have more than 1 or many) - be sure to use correct project acronyms, put names in "", separate with commas and ensure species names are Latin ones, exactly as they appear in the Wildco database. Ideally, if you are working in a R project and have the same file paths, you should only have to update code lines 33 and 39 for this code to run.
+
+#Specify project(s) - Warning if you don't have a corresponding file folder for the project names below, the code will not run 
+
+##########################################
+proj_name <- c("Example_MK","Example_BLT")
+##########################################
+
+#Specify species - can be more than one, or just one. The code will produce error messages if your target species are not detected at any of the specific project locations - Make sure of the latin name spelling!!
+
+##################################################################
+target_species <-c("Ursus americanus", "Canis latrans","Bird spp.")
+###################################################################
+```
+
+```{r}
+ ##Initializing############################################################################################################################
+
+# Create an output folder 
+    dir.create("processed_data/")
+
+ # Timezone [Use UTC if your cameras do not correct for daylight saving time, if they do use the timezone where the data was collected]
+    tz <- "UTC"
+    
+ #### Set the "independence" interval in minutes
+    independent <- 30
+```
+
+
+```{r}
+for (project in proj_name) {
+# Within this loop, 'project' represents each element in the 'proj_name' vector, allowing for multiple projects to be formatted. You may have the update file paths if you didn't use the "raw_data" folder
+  
+### 1. Standardize camera deployments #############################################################################
+stations <- read_csv(paste0("raw_data/", project, "/stations.csv"))
+camera_checks <- read_csv(paste0("raw_data/", project, "/camera_checks.csv"))
+
+deployment  <- full_join(camera_checks, stations, by = "station_id")
+
+deployment <- deployment %>%
+  rename(
+    Deployment.Location.ID = station_id,
+    Treatment = treatment,
+    Latitude = latitude,
+    Longitude = longitude,
+    Camera.Deployment.Begin.Date = check_date,
+    Camera.Deployment.End.Date = stop_date,
+    Bait.Type = bait,
+    Feature.Type = feature,
+    Quiet.Period.Setting = quiet_period,
+    Height = camera_height,
+    Angle = camera_angle,
+    d.Trail = camera_distance,
+    Status = camera_status
+  )
+
+### 2. Standardize station data #############################################
+
+stations <- stations %>% 
+  rename(Deployment.Location.ID = station_id,
+         Latitude = latitude,
+         Longitude = longitude)
+
+# Add treatment column from deployments
+treatment <- select(deployment, Deployment.Location.ID, Treatment)
+
+# Select only first occurrence, since we're pulling from all cam checks
+treatment <- treatment %>%
+  group_by(Deployment.Location.ID) %>%
+  filter(Deployment.Location.ID == min(Deployment.Location.ID)) %>%
+  slice(1) %>%
+  ungroup()
+
+stations <- left_join(stations, treatment, by = "Deployment.Location.ID")
+
+# Trim down
+stations <- select(stations, -station_tbl_id, -project_id)
+
+# Export to .csv
+write.csv(stations, paste0("raw_data/", project, "/", project,"_station_data.csv"), row.names = FALSE)
+
+### 3. Standardize identifications from database output ##########################################################################
+
+idents <- read.csv(paste0("raw_data/",project,"/images_idents.csv"))
+ud_dat <- idents
+
+# remove deleted rows
+ud_dat <- filter(ud_dat, deleted == "f")
+
+# rename to standardized columns
+colnames(ud_dat)
+
+ud_dat <- ud_dat %>%
+  rename(Project.ID = project_id,
+         Deployment.Location.ID = station_id,
+         Image.ID = orig_file,
+         Blank = misfire,
+         Species = latin_name,
+         Species.Common.Name = common_names,
+         Age = age_category,
+         Date_Time.Captured = exif_timestamp,
+         Sex = sex,
+         Behaviour = behaviour,
+         Minimum.Group.Size = group_count,
+         Number.of.Animals = species_count,
+         Collar = collar,
+         Collar.ID = collar_tags)
+
+# remove blank images and misfires
+ud_dat$Blank[ud_dat$Blank=="f"] <- F
+ud_dat <- filter(ud_dat, Blank == F)
+ud_dat <- filter(ud_dat, Species != "No animal")
+
+# remove extraneous species column
+ud_dat <- subset(ud_dat, select = -c(species))
+
+# small standardizations
+ud_dat$`Project.ID` <- project 
+ud_dat$Time.Zone <- NA
+ud_dat$Time.Zone <- "UTC-8" # Change if in different TZ
+
+# pare down to desired columns only
+ud_dat <- select(ud_dat,
+                 Project.ID,
+                 Deployment.Location.ID,
+                 Image.ID,
+                 Blank,
+                 Species,
+                 Species.Common.Name,
+                 Date_Time.Captured,
+                 Time.Zone,
+                 Number.of.Animals,
+                 Minimum.Group.Size,
+                 Age,
+                 Sex,
+                 Behaviour,
+                 Collar,
+                 Collar.ID,
+                 comments)
+
+# Write to csv
+#CHECK Your raw_data folder to see if it worked - you shoudl have two new files
+
+write.csv(ud_dat, paste0("raw_data/",project, "/", project,"_detection_data.csv"), row.names = F)
+
+}
+```
+
+
+
+```{r}
+
+# If statement and for loop that goes through all the projects and calculates independent detections (based on your independence threshold set above) for the species you specify above. See the print statements in console to see if any project(s) do not contain any of your specified species
+
+for (project in proj_name) {
+  # Within this loop, 'project' represents each element in the 'proj_name' vector, one at a time.
+
+#read in all files from proj_name
+dat <- read.csv(paste0("raw_data/",project,"/", project,"_detection_data.csv"), header=T) 
+sta <- read.csv(paste0("raw_data/",project,"/", project,"_station_data.csv"), header=T)
+
+# if statement that proceeds only if your desired species are detected in the dataframe
+if (any(target_species %in% dat$Species)) {
+    
+    ##Initializing####################################################################
+    
+    #filter species of interest
+    dat <- filter(dat, Species == target_species)
+    
+    dat$Date_Time.Captured <- ymd_hms(dat$Date_Time.Captured, truncated=2, tz=tz)
+    
+    ## Independent camera detection ##########################################################
+    
+    # save this version of dat for next chunk
+    dat_pre_ind <- dat
+    
+    # Remove observations without animals detected
+    dat <- dat[dat$Blank==FALSE & is.na(dat$Species)==FALSE,]
+    dat$Species <- as.character(dat$Species)
+    dat$Deployment.Location.ID <- as.character(dat$Deployment.Location.ID)
+    
+    # Order the dataframe by Site, date
+    dat <- dat[order(dat$Deployment.Location.ID, dat$Date_Time.Captured),]
+    
+    ### NEW-NEW WAY (March 9, 2023)
+    
+    # function with loop that calculates duration AND assigns group ID:
+    func <- function(dat){
+      dat <- dat %>%
+        mutate(duration = int_length(Date_Time.Captured %--% lag(Date_Time.Captured)))
+      
+      mins <- independent
+      
+      event_ID <- c("E0")
+      if(nrow(dat) == 1){
+      }else{
+        seq <- 0
+        for(i in 2:nrow(dat)){
+          seq <- if_else(abs(dat$duration[i]) > (mins * 60), seq + 1, seq)
+          event_ID_temp <- paste0("E", seq)
+          event_ID <- c(event_ID, event_ID_temp)
+        }
+      }
+    
+      dat <- dat %>%
+        mutate(Event.ID = event_ID)
+      
+      return(dat)
+    }
+    
+    dat <- dat %>%
+      group_nest(Deployment.Location.ID, Species) %>%
+      mutate(data = map(.x = data, 
+                        .f =~ func(.x))) %>%
+      unnest(data) %>% 
+      #need Event.IDs to all be unique:
+      mutate(Event.ID = paste(Event.ID, Deployment.Location.ID, Species, sep = "_"))
+    
+    # If there is no minimum groupsize take number of animals
+    if(!"Minimum.Group.Size" %in% colnames(dat)) {dat$Minimum.Group.Size <- dat$Number.of.Animals}
+    
+    # Calculate the event length and size
+    
+    # find out the last and the first of the time in the group
+    top <- dat %>% group_by(Event.ID) %>% top_n(1,Date_Time.Captured) %>% select(Event.ID, Date_Time.Captured)
+    bot <- dat %>% group_by(Event.ID) %>% top_n(-1,Date_Time.Captured) %>% select(Event.ID, Date_Time.Captured)
+    names(bot)[2] <- c("Date_Time.Captured_end")
+    dec_no <- dat %>% group_by(Event.ID) %>% summarise(n())
+    
+    ### NEW WAY - find group size across age and sex classes in event
+    event_grp <- dat %>% 
+      # don't want to double count blanks and unknowns:
+      mutate(Sex = ifelse(Sex == "", "Unknown", Sex),
+             Age = ifelse(Age == "", "Unknown", Age)) %>% 
+      group_by(Event.ID, Sex, Age) %>%
+      summarise(Minimum.Group.Size = max(Minimum.Group.Size)) %>% 
+      group_by(Event.ID) %>% 
+      summarise(total_group_size = sum(Minimum.Group.Size))
+    
+    
+    # calculate the duration
+    diff <-  top %>% left_join(bot, by="Event.ID") %>%
+      mutate(duration=abs(int_length(Date_Time.Captured %--% Date_Time.Captured_end))) %>%
+      left_join(event_grp, by="Event.ID")%>%
+      left_join(dec_no, by="Event.ID")
+    
+    # Remove duplicates
+    diff <- diff[duplicated(diff)==FALSE,]
+    
+    names(diff) <- c("Event.ID","Date_Time.end","Date_Time.start","Event.Duration","Event.Groupsize","Event.Observations")
+    diff$Date_Time.end<-NULL;diff$Date_Time.start<-NULL
+    dat$duration <-NULL
+    # Merge the data
+    dat <-  dat %>%
+      left_join(diff,by="Event.ID")
+    
+    # Pause at this stage to export ind.dat separated by sex and age
+    dat_Event.ID_pre_subsetting <- dat
+    
+    # Subset to the first observation in each event
+    ind.dat <- dat[!duplicated(dat$Event.ID),]
+    ind.dat <- as.data.frame(ind.dat)
+    ind.dat$Species <-as.factor(ind.dat$Species)
+    
+    #add lat/long, clean up dataframe
+    
+    ind.dat<- merge(ind.dat, sta, by = "Deployment.Location.ID")
+
+    # Check your processed data folder to see if the first step worked 
+    write.csv(ind.dat, paste0("processed_data/",dat$Project.ID[1], "_",independent ,"min_Independent_",paste(target_species,collapse = "_"),".csv"), row.names = F)
+
+
+} else {
+  
+  print(paste0("No target species found in ",project))
+}
+
+}
+```
+
+
+```{r}
+
+####Open all Files######################### For loop and if statement to open and combine the site specific csvs. If no target species are located at certain sites, you should receive a message in the console that those files names do not exist
+
+dat<-list()
+
+for (i in 1:length(proj_name)) {
+  # Create the file path
+  file_path <- paste0("processed_data/", proj_name[i], "_", independent, "min_Independent_", paste(target_species, collapse = "_"), ".csv")
+  
+  # Check if the file exists
+  if (file.exists(file_path)) {
+    # Read the CSV file and store it in the list
+    dat[[i]] <- read.csv(file_path, header = TRUE)
+  } else {
+    cat("File does not exist:", file_path, "\n")
+  }
+}
+
+
+# Combine all data frames into a single data frame
+all_data <- do.call(rbind, dat)  # combine by rows
+
+
+```
+
+
+```{r}
+########################################################################################################
+# Quick Visualization of where opportunistic independent detections have occurred (Note, this code will produce multiple maps for each "target_species" - make sure everything looks good before exporting the final csv!
+
+maps <- list()
+
+for (i in 1:length(target_species)) {
+  
+map_data<- filter(all_data, Species == target_species[i])
+
+# Aggregate the data to count the number of observations at each unique latitude and longitude
+observation_counts <- map_data %>%
+  group_by(Latitude, Longitude) %>%
+  summarise(Count = n())
+
+# Scale marker sizes based on the count of observations
+marker_sizes <- log(observation_counts$Count*5)  # Adjust the scaling factor as needed)
+
+m <- leaflet() %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%  
+  addProviderTiles(providers$Esri.WorldTopoMap, group = "Base") %>%     
+  addCircleMarkers(
+    lng = observation_counts$Longitude,
+    lat = observation_counts$Latitude,
+    radius = marker_sizes,
+    fillOpacity = 0.9,  # Adjust opacity
+    
+  ) %>%
+    addLegend(
+      title = "Species",
+      colors = "Blue",
+      labels = target_species[i],
+      opacity = 1
+    ) %>%
+  # Layers control
+  addLayersControl(
+    baseGroups = c("Satellite", "Base"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+    setView(lng = -120, lat = 51.6, zoom = 5.45)  # Set the view to British Columbia
+
+
+
+maps[[i]] <- m
+
+}
+
+maps
+
+```
+
+
+```{r}
+#cleaning up the data  - TO BE UPDATED BY USER - (will need adjustments depending on the specifics of your data requests)
+
+all_data <- all_data %>%
+  mutate(
+  
+    ObserverFirstName	 = "Cole",
+    ObserverLastName	 = "Burton",
+    ObserverEmailAddress	 = "cole.burton@ubc.ca" ,
+    InfoAboutObserver	 = "UBC Wildlife Coexistence Lab",
+    UTMZone	 = "10N", # this will change in different parts of BC (east/west), and in different provinces
+    SpatialAccuracyMeters = "3.65", #from garmin website https://www8.garmin.com/manuals/webhelp/gpsmap64/EN-US/GUID-37A0AE2A-98CD-4463-ADB9-13749D79B09F.html
+    SiteLocation	= site_location,
+    DateTime	= Date_Time.Captured,
+    Comments= site_comments
+    
+  )
+    
+# select all desired columns
+select_all_data <- all_data %>%
+  select(
+    ObserverFirstName,
+    ObserverLastName,
+    ObserverEmailAddress,
+    InfoAboutObserver,
+    Species,
+    UTMZone, 
+    Longitude,
+    Latitude, 
+    SpatialAccuracyMeters,
+    DateTime,
+    SiteLocation,
+    Comments
+    
+    
+  )
+
+write.csv(select_all_data, paste0("processed_data/UBC_Wildco","_",independent ,"min_Independent_",paste(target_species,collapse = "_"),".csv"), row.names = F)
+
+```
+   
+
+
+
+

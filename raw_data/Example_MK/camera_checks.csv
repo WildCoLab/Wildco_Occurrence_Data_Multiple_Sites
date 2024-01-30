@@ -1,0 +1,269 @@
+project_id,camera_check_tbl_id,camera_label,station_id,check_date,treatment,bait,feature,camera_status,media_recovered,quiet_period,battery,sensitivity,images_per_trigger,camera_height,camera_angle,camera_bearing,camera_distance,stop_date
+MK,69,WC092,MK02,2019-06-27 00:00:00,"NE facing, deployed at 15:17",None,"Road, dirt",Active in field,f,0,100,100,1,1.63,0,0,,2019-08-29 00:00:00
+MK,68,WC089,MK01,2019-06-27 00:00:00,"Facing NW, elev. 266m, point 017 on grey GPS",None,"Trail, hiking/people",Active in field,t,0,100,100,1,0.85,0,0,,2019-08-30 00:00:00
+MK,70,WC091,MK03,2019-06-27 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,f,0,100,100,1,0.82,0,0,,2019-08-30 00:00:00
+MK,71,WC087,MK04,2019-06-29 00:00:00,Facing N,None,"Trail, game",Active in field,f,0,100,100,1,0.74,0,0,,2019-08-30 00:00:00
+MK,72,WC200,MK05,2019-06-29 00:00:00,Facing S,None,"Road, paved",Active in field,f,0,100,100,1,0.54,0,0,,2019-08-29 00:00:00
+MK,1296,WC095,MK11,2021-10-29 00:00:00,N-facing,None,"Trail, game",Available for use,t,0,100,100,1,1.75,0,0,,2021-10-29 00:00:00
+MK,140,WC097,MK09,2019-09-28 00:00:00,N-facing,None,"Road, dirt",Camera Hardware Failure,t,0,100,100,1,1.05,0,0,,
+MK,98,WC158,MK06,2019-07-11 00:00:00,N facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.74,0,0,,2019-08-30 00:00:00
+MK,141,WC093,MK08,2019-09-28 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.13,0,0,,2020-06-05 00:00:00
+MK,101,WC097,MK09,2019-07-11 00:00:00,N-facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.05,0,0,,2019-09-28 00:00:00
+MK,102,WC096,MK10,2019-07-16 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.83,0,0,,2020-02-01 00:00:00
+MK,103,WC095,MK11,2019-07-16 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.75,0,0,,2020-02-01 00:00:00
+MK,104,WC094,MK12,2019-07-16 00:00:00,NW-facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.13,0,0,,2019-08-29 00:00:00
+MK,105,WC099,MK13,2019-07-16 00:00:00,NNW-facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.54,0,0,,2019-08-29 00:00:00
+MK,107,WC159,MK14,2019-07-18 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.85,0,0,,2019-08-20 00:00:00
+MK,106,WC100,MK15,2019-07-18 00:00:00,S-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.78,0,0,,2019-08-29 00:00:00
+MK,126,WC159,MK14,2019-08-20 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.85,0,0,,2020-02-07 00:00:00
+MK,108,WC230,MK16,2019-07-23 00:00:00,NW-facing,None,"Trail, game",Active in field,f,0,100,100,1,2,0,0,,2019-09-28 00:00:00
+MK,109,WC098,MK17,2019-07-23 00:00:00,W-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.77,0,0,,2019-09-28 00:00:00
+MK,143,WC098,MK17,2019-09-28 00:00:00,W-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,2020-06-11 00:00:00
+MK,196,WC068,MKRF1,2020-02-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Vandalism/Theft,f,1,100,100,1,1,0,0,,
+MK,195,WC095,MK11,2020-02-01 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2020-06-13 00:00:00
+MK,183,WC068,MKRF1,2019-03-18 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,f,1,100,100,1,1,0,0,,2019-07-16 00:00:00
+MK,184,WC068,MKRF1,2019-07-16 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2019-07-16 00:00:00
+MK,185,WC069,MKRF2,2019-03-18 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,f,1,100,100,1,1,0,0,,2019-07-11 00:00:00
+MK,186,WC069,MKRF2,2019-07-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-02-01 00:00:00
+MK,198,WC069,MKRF2,2020-02-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-06-05 00:00:00
+MK,187,WC070,MKRF3,2019-03-18 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,f,1,100,100,1,1,0,0,,2019-07-11 00:00:00
+MK,188,WC070,MKRF3,2019-07-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-02-01 00:00:00
+MK,199,WC070,MKRF3,2020-02-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-06-05 00:00:00
+MK,189,WC071,MKRF4,2019-03-18 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,f,1,100,100,1,1,0,0,,2019-07-11 00:00:00
+MK,190,WC071,MKRF4,2019-07-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-02-01 00:00:00
+MK,946,WC070,MKRF3,2021-07-16 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-10-29 00:00:00
+MK,2425,WC335,MK06,2023-08-11 00:00:00,N facing,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,348,WC104,MK02,2020-08-28 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2021-06-04 00:00:00
+MK,341,WC089,MK01,2020-05-08 00:00:00,"Facing NW, elev. 266m, point 017 on grey GPS",None,"Trail, hiking/people",Active in field,t,0,100,100,1,0.85,0,0,,2020-08-25 00:00:00
+MK,345,WC092,MK02,2020-05-08 00:00:00,"NE facing, deployed at 15:17",None,"Road, dirt",Wildlife Damage,t,0,100,100,1,1.63,0,0,,
+MK,344,WC092,MK02,2019-08-29 00:00:00,"NE facing, deployed at 15:17",None,"Road, dirt",Active in field,t,0,100,100,1,1.63,0,0,,2019-11-11 00:00:00
+MK,349,WC091,MK03,2019-08-30 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2020-05-29 00:00:00
+MK,350,WC091,MK03,2020-05-29 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2020-07-23 00:00:00
+MK,351,WC091,MK03,2020-07-23 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2020-08-25 00:00:00
+MK,352,WC091,MK03,2020-08-25 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2021-04-11 00:00:00
+MK,353,WC087,MK04,2019-08-30 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2020-06-05 00:00:00
+MK,369,WC096,MK10,2020-07-30 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.83,0,0,,2020-09-01 00:00:00
+MK,354,WC087,MK04,2020-06-05 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2020-08-28 00:00:00
+MK,355,WC087,MK04,2020-08-28 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2021-05-28 00:00:00
+MK,357,WC200,MK05,2020-06-05 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2020-08-28 00:00:00
+MK,358,WC200,MK05,2020-08-28 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2021-05-28 00:00:00
+MK,359,WC158,MK06,2019-08-30 00:00:00,N facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.74,0,0,,2020-06-05 00:00:00
+MK,360,WC158,MK06,2020-06-05 00:00:00,N facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.74,0,0,,2020-08-28 00:00:00
+MK,364,WC101,MK07,2021-06-03 00:00:00,E facing (facing upslope of hill that should block majority of sunlight),None,"Road, dirt",Wildlife Damage,t,0,100,100,1,2.11,0,0,,
+MK,374,WC094,MK12,2019-08-29 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2020-06-05 00:00:00
+MK,380,WC174,MK13,2020-06-11 00:00:00,doug/cedar stand,None,"Road, paved",Active in field,f,1,100,100,1,0.53,0,0,3.93,2020-08-28 00:00:00
+MK,379,WC099,MK13,2020-06-11 00:00:00,NNW-facing,None,"Road, dirt",Wildlife Damage,t,0,100,100,1,1.54,0,0,,
+MK,356,WC200,MK05,2019-08-29 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2020-06-05 00:00:00
+MK,361,WC158,MK06,2020-08-28 00:00:00,N facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.74,0,0,,2021-04-11 00:00:00
+MK,365,WC093,MK08,2020-06-05 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.13,0,0,,2020-08-25 00:00:00
+MK,372,WC095,MK11,2020-06-13 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2020-09-01 00:00:00
+MK,376,WC094,MK12,2020-08-25 00:00:00,NW-facing,None,"Road, dirt",Wildlife Damage,t,0,100,100,1,1.13,0,0,,
+MK,393,WC233,MKRF1,2020-09-01 00:00:00,NA,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2020-11-14 00:00:00
+MK,367,WC136,MK09,2020-05-29 00:00:00,E-facing,None,"Road, dirt",Active in field,t,1,100,100,1,1,0,0,,2020-08-25 00:00:00
+MK,368,WC136,MK09,2020-08-25 00:00:00,E-facing,None,"Road, dirt",Active in field,t,1,100,100,1,1,0,0,,2021-06-03 00:00:00
+MK,370,WC096,MK10,2020-09-01 00:00:00,N-facing,None,"Trail, game",Wildlife Damage,t,0,100,100,1,0.83,0,0,,
+MK,371,WC189,MK10,2020-09-01 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,f,1,100,100,1,0.67,0,0,3.89,2021-06-11 00:00:00
+MK,373,WC095,MK11,2020-09-01 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2021-10-29 00:00:00
+MK,375,WC094,MK12,2020-06-05 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2020-08-25 00:00:00
+MK,378,WC099,MK13,2019-08-29 00:00:00,NNW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.54,0,0,,2020-06-11 00:00:00
+MK,381,WC174,MK13,2020-08-28 00:00:00,doug/cedar stand,None,"Road, paved",Active in field,t,1,100,100,1,0.53,0,0,3.93,2021-05-28 00:00:00
+MK,382,WC159,MK14,2020-06-13 00:00:00,N-facing,None,"Trail, game",Unknown Failure,t,0,100,100,1,0.85,0,0,,
+MK,384,WC100,MK15,2019-08-29 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,2020-06-05 00:00:00
+MK,385,WC100,MK15,2020-06-05 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,2020-08-25 00:00:00
+MK,386,WC100,MK15,2020-08-25 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,2021-05-28 00:00:00
+MK,387,WC230,MK16,2020-06-11 00:00:00,NW-facing,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2020-08-28 00:00:00
+MK,388,WC230,MK16,2020-08-28 00:00:00,NW-facing,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2021-06-03 00:00:00
+MK,389,WC098,MK17,2020-06-11 00:00:00,W-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,2021-06-03 00:00:00
+MK,391,WC233,MKRF1,2020-06-05 00:00:00,"Replaced broken camera. Set up trail from previous set, pushed farther back on less obvious tree.",None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2020-07-30 00:00:00
+MK,394,WC069,MKRF2,2020-06-05 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-07-30 00:00:00
+MK,395,WC069,MKRF2,2020-07-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-09-01 00:00:00
+MK,396,WC069,MKRF2,2020-09-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-04-11 00:00:00
+MK,397,WC070,MKRF3,2020-06-05 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-07-30 00:00:00
+MK,398,WC070,MKRF3,2020-07-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-09-01 00:00:00
+MK,399,WC070,MKRF3,2020-09-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-04-11 00:00:00
+MK,400,WC071,MKRF4,2020-06-05 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-07-30 00:00:00
+MK,401,WC071,MKRF4,2020-07-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-09-01 00:00:00
+MK,402,WC071,MKRF4,2020-09-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-04-11 00:00:00
+MK,835,WC200,MK05,2021-05-28 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2022-05-11 00:00:00
+MK,342,WC089,MK01,2020-08-25 00:00:00,"Facing NW, elev. 266m, point 017 on grey GPS",None,"Trail, hiking/people",Unknown Failure,t,0,100,100,1,0.85,0,0,,
+MK,1782,WC135,MK01,2022-08-03 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2023-05-12 00:00:00
+MK,834,WC087,MK04,2021-05-28 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2022-05-11 00:00:00
+MK,100,WC093,MK08,2019-07-11 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.13,0,0,,2019-09-28 00:00:00
+MK,1330,WC265,MK12,2020-08-25 00:00:00,NW-facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.13,0,0,,2021-04-11 00:00:00
+MK,1047,WC135,MK01,2020-08-25 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2020-09-01 00:00:00
+MK,1331,WC265,MK12,2021-04-11 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2021-07-13 00:00:00
+MK,857,WC233,MKRF1,2021-04-11 00:00:00,NA,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2021-06-04 00:00:00
+MK,852,WC098,MK17,2021-06-03 00:00:00,W-facing,None,"Trail, game",Wildlife Damage,t,0,100,100,1,1.77,0,0,,
+MK,850,WC104,MK02,2021-06-04 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2021-11-11 00:00:00
+MK,858,WC233,MKRF1,2021-06-04 00:00:00,NA,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2021-07-16 00:00:00
+MK,864,WC069,MKRF2,2021-04-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-04-11 00:00:00
+MK,860,WC070,MKRF3,2021-04-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-06-03 00:00:00
+MK,859,WC070,MKRF3,2021-06-03 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-07-16 00:00:00
+MK,861,WC071,MKRF4,2021-04-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-06-03 00:00:00
+MK,862,WC071,MKRF4,2021-06-03 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-07-16 00:00:00
+MK,866,WC158,MK06,2021-04-11 00:00:00,N facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.74,0,0,,2022-02-18 00:00:00
+MK,854,WC159,MK07,2021-06-03 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, dirt",Active in field,t,1,100,100,1,2.11,0,0,,2022-02-18 00:00:00
+MK,855,WC136,MK09,2021-06-03 00:00:00,E-facing,None,"Road, dirt",Active in field,t,1,100,100,1,1,0,0,,2022-02-18 00:00:00
+MK,856,WC230,MK16,2021-06-03 00:00:00,NW-facing,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2022-02-18 00:00:00
+MK,1789,WC066,MKRF2,2022-08-03 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-30 00:00:00
+MK,1790,WC070,MKRF3,2022-08-03 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-31 00:00:00
+MK,1853,WC066,MKRF2,2022-08-30 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-04-23 00:00:00
+MK,1574,WC071,MKRF4,2022-05-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-30 00:00:00
+MK,1575,WC066,MKRF2,2022-05-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-30 00:00:00
+MK,1784,WC265,MK12,2022-08-03 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2023-04-28 00:00:00
+MK,1788,WC343,MKRF1,2022-08-03 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2022-08-30 00:00:00
+MK,1806,WC158,MK06,2022-08-19 00:00:00,N facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.74,0,0,,2023-05-12 00:00:00
+MK,1576,WC233,MKRF1,2022-05-11 00:00:00,Water damage in camera resulted in a capture/sec. ,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2022-05-30 00:00:00
+MK,1804,WC087,MK04,2022-08-19 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2023-05-12 00:00:00
+MK,1787,WC241,MK15,2022-08-03 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,2023-05-17 00:00:00
+MK,1855,WC071,MKRF4,2022-08-31 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-05-12 00:00:00
+MK,1851,WC189,MK10,2022-08-30 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,t,1,100,100,1,0.67,0,0,3.89,2023-06-05 00:00:00
+MK,1809,WC200,MK05,2022-08-19 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2023-05-12 00:00:00
+MK,1577,WC070,MKRF3,2022-05-11 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-30 00:00:00
+MK,1791,WC071,MKRF4,2022-08-03 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-31 00:00:00
+MK,1594,WC136,MK09,2022-05-27 00:00:00,E-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1,0,0,,2022-08-19 00:00:00
+MK,1156,WC135,MK01,2020-09-01 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2021-06-04 00:00:00
+MK,1157,WC135,MK01,2021-06-04 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2021-10-29 00:00:00
+MK,1581,WC135,MK01,2022-05-18 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,0,100,100,1,0.85,0,0,,2022-08-03 00:00:00
+MK,1578,WC200,MK05,2022-05-11 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2022-08-19 00:00:00
+MK,1600,WC343,MKRF1,2022-05-30 00:00:00,Replaced WC233 due to water damage (resulted in a capture/sec over a couple of days). ,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2022-06-20 00:00:00
+MK,1615,WC070,MKRF3,2022-06-20 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-07-06 00:00:00
+MK,1611,WC104,MK02,2022-04-21 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2022-05-30 00:00:00
+MK,1596,WC091,MK03,2022-05-27 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2022-08-19 00:00:00
+MK,1595,WC265,MK12,2022-05-27 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2022-08-03 00:00:00
+MK,1613,WC230,MK16,2022-06-20 00:00:00,N/A,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2022-08-19 00:00:00
+MK,1612,WC167,MK17,2022-06-20 00:00:00,Note that damage to Road R means it is inaccessible by car so you have to walk 1.2 km to the camera. ,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,2022-08-19 00:00:00
+MK,392,WC233,MKRF1,2020-07-30 00:00:00,NA,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2020-09-01 00:00:00
+MK,1579,WC087,MK04,2022-05-11 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2022-08-19 00:00:00
+MK,1474,WC159,MK07,2022-02-18 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, dirt",Active in field,t,0,100,100,1,2.11,0,0,,2022-05-18 00:00:00
+MK,1475,WC136,MK09,2022-02-18 00:00:00,E-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1,0,0,,2022-05-27 00:00:00
+MK,1614,WC071,MKRF4,2022-06-20 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-07-06 00:00:00
+MK,1601,WC070,MKRF3,2022-05-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-06-20 00:00:00
+MK,1616,WC066,MKRF2,2022-06-20 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-07-06 00:00:00
+MK,1605,WC066,MKRF2,2022-05-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-06-20 00:00:00
+MK,868,WC233,MKRF1,2020-11-14 00:00:00,NA,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2021-04-11 00:00:00
+MK,1583,WC159,MK07,2022-05-18 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, dirt",Active in field,t,0,100,100,1,2.11,0,0,,2022-08-19 00:00:00
+MK,1580,WC189,MK10,2022-05-11 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,t,1,100,100,1,0.67,0,0,3.89,2022-08-30 00:00:00
+MK,1476,WC230,MK16,2022-02-18 00:00:00,NW-facing,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2022-06-20 00:00:00
+MK,1639,WC070,MKRF3,2022-07-06 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-03 00:00:00
+MK,1617,WC343,MKRF1,2022-06-20 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2022-07-06 00:00:00
+MK,1478,WC091,MK03,2022-02-18 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2022-05-27 00:00:00
+MK,1603,WC144,MK13,2022-05-30 00:00:00,NNW-facing,None,"Road, dirt",Active in field,f,0,100,100,1,1.54,0,0,,2022-08-03 00:00:00
+MK,1640,WC071,MKRF4,2022-07-06 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-03 00:00:00
+MK,1477,WC167,MK17,2022-02-18 00:00:00,W-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.77,0,0,,2022-06-20 00:00:00
+MK,197,WC233,MKRF1,2021-10-29 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2022-05-11 00:00:00
+MK,1585,WC241,MK15,2022-05-18 00:00:00,S-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.78,0,0,,2022-08-03 00:00:00
+MK,1298,WC350,MK11_reset,2021-10-29 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2022-05-18 00:00:00
+MK,1300,WC093,MK08,2021-10-29 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.13,0,0,,2021-10-29 00:00:00
+MK,1297,WC350,MK11_reset,2021-06-11 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.75,0,0,,2021-10-29 00:00:00
+MK,1301,WC135,MK01,2021-10-29 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2022-05-18 00:00:00
+MK,1304,WC071,MKRF4,2021-10-29 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-11 00:00:00
+MK,1637,WC343,MKRF1,2022-07-06 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2022-08-03 00:00:00
+MK,1305,WC070,MKRF3,2021-10-29 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-11 00:00:00
+MK,1335,WC270,MK14,2021-05-28 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.85,0,0,,2021-11-11 00:00:00
+MK,1311,WC066,MKRF2,2021-07-16 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-10-29 00:00:00
+MK,943,WC233,MKRF1,2021-07-16 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.74,0,0,,2021-10-29 00:00:00
+MK,1313,WC205,MK08,2021-10-29 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.13,0,0,,2022-05-27 00:00:00
+MK,1604,WC071,MKRF4,2022-05-30 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-06-20 00:00:00
+MK,1314,WC167,MK17,2021-06-03 00:00:00,W-facing,None,"Trail, game",Active in field,f,0,100,100,1,1.77,0,0,,2022-02-18 00:00:00
+MK,1638,WC066,MKRF2,2022-07-06 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-08-03 00:00:00
+MK,1312,WC066,MKRF2,2021-10-29 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2022-05-11 00:00:00
+MK,1333,WC144,MK14,2020-08-28 00:00:00,N-facing,None,"Trail, game",Wildlife Damage,t,0,100,100,1,0.85,0,0,,
+MK,1332,WC144,MK14,2020-06-13 00:00:00,N-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.85,0,0,,2020-08-28 00:00:00
+MK,1808,WC159,MK07,2022-08-19 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, dirt",Active in field,f,0,100,100,1,2.11,0,0,,2023-06-07 00:00:00
+MK,1334,WC270,MK14,2020-08-28 00:00:00,N-facing,None,"Trail, game",Camera Hardware Failure,t,0,100,100,1,0.85,0,0,,2021-05-28 00:00:00
+MK,1340,WC241,MK15,2021-10-29 00:00:00,S-facing,None,"Trail, game",Active in field,f,0,100,100,1,0.78,0,0,,2022-05-18 00:00:00
+MK,1854,WC070,MKRF3,2022-08-31 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-05-12 00:00:00
+MK,340,WC089,MK01,2019-08-30 00:00:00,"Facing NW, elev. 266m, point 017 on grey GPS",None,"Trail, hiking/people",Active in field,t,0,100,100,1,0.85,0,0,,2020-05-08 00:00:00
+MK,99,WC101,MK07,2019-07-11 00:00:00,E facing (facing upslope of hill that should block majority of sunlight),None,"Road, dirt",Active in field,f,0,100,100,1,2.11,0,0,,2019-08-30 00:00:00
+MK,362,WC101,MK07,2019-08-30 00:00:00,E facing (facing upslope of hill that should block majority of sunlight),None,"Road, dirt",Active in field,t,0,100,100,1,2.11,0,0,,2020-06-05 00:00:00
+MK,363,WC101,MK07,2020-06-05 00:00:00,E facing (facing upslope of hill that should block majority of sunlight),None,"Road, dirt",Active in field,t,0,100,100,1,2.11,0,0,,2021-06-03 00:00:00
+MK,182,WC136,MK09,2019-10-18 00:00:00,E-facing,None,"Road, dirt",Active in field,f,1,100,100,1,1,0,0,,2020-05-29 00:00:00
+MK,194,WC096,MK10,2020-02-01 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.83,0,0,,2020-07-30 00:00:00
+MK,142,WC230,MK16,2019-09-28 00:00:00,NW-facing,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2020-06-11 00:00:00
+MK,200,WC071,MKRF4,2020-02-01 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2020-06-05 00:00:00
+MK,945,WC071,MKRF4,2021-07-16 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2021-10-29 00:00:00
+MK,1342,WC104,MK02,2021-11-11 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2022-04-21 00:00:00
+MK,1341,WC265,MK12,2021-11-11 00:00:00,NW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.13,0,0,,2022-05-27 00:00:00
+MK,1344,WC270,MK14,2021-11-11 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.85,0,0,,2022-05-27 00:00:00
+MK,2160,WC136,MK09,2022-08-19 00:00:00,E-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1,0,0,,2023-05-17 00:00:00
+MK,2149,WC070,MKRF3,2023-05-12 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-06-05 00:00:00
+MK,2158,WC265,MK12,2023-05-17 00:00:00,NW-facing,None,"Road, dirt",Wildlife Damage,t,0,100,100,1,1.13,0,0,,2023-05-17 00:00:00
+MK,1593,WC270,MK14,2022-05-27 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.85,0,0,,2022-08-03 00:00:00
+MK,1598,WC205,MK08,2022-05-27 00:00:00,N-facing,None,"Trail, game",Camera Hardware Failure,f,0,100,100,1,1.13,0,0,,2022-05-27 00:00:00
+MK,1599,WC346,MK08,2022-05-27 00:00:00,Camera was replaced in lockbox after batteries were found to be corroded due to significant water presence that had leaked inside the camera. ,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2022-08-19 00:00:00
+MK,2173,WC189,MK10,2023-06-05 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,t,1,100,100,1,0.67,0,0,3.89,2023-08-15 00:00:00
+MK,1310,WC066,MKRF2,2021-06-04 00:00:00,opportunistic deployment by Cole,None,"Trail, hiking/people",Vandalism/Theft,t,1,100,100,1,1,0,0,,2021-07-16 00:00:00
+MK,2179,WC136,MK09,2023-06-07 00:00:00,E-facing - backed into by truck needs replacing asap,None,"Road, dirt",Camera Hardware Failure,t,0,100,100,1,1,0,0,,2023-06-07 00:00:00
+MK,2143,WC144,MK13,2023-04-21 00:00:00,NNW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.54,0,0,,2023-06-21 00:00:00
+MK,2161,WC136,MK09,2023-05-17 00:00:00,E-facing - backed into by truck needs replacing asap,None,"Road, dirt",Active in field,t,0,100,100,1,1,0,0,,2023-06-07 00:00:00
+MK,1785,WC144,MK13,2022-08-03 00:00:00,NNW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.54,0,0,,2023-04-21 00:00:00
+MK,2183,WC230,MK16,2023-06-07 00:00:00,N/A,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2023-08-11 00:00:00
+MK,2175,WC343,MKRF1,2023-06-05 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2023-06-21 00:00:00
+MK,1586,WC350,MK11_reset,2022-05-18 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2023-06-05 00:00:00
+MK,2174,WC350,MK11_reset,2023-06-05 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,2023-08-15 00:00:00
+MK,2181,WC159,MK07,2023-06-07 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight); battery failure ,None,"Road, dirt",Unknown Failure,t,0,100,100,1,2.11,0,0,,2023-03-31 00:00:00
+MK,2178,WC071,MKRF4,2023-06-05 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-06-21 00:00:00
+MK,2184,WC167,MK17,2023-06-07 00:00:00,Note that damage to Road R means it is inaccessible by car so you have to walk 1.2 km to the camera. ,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,2023-08-11 00:00:00
+MK,2434,WC071,MKRF4,2023-08-15 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,
+MK,2155,WC104,MK02,2023-05-12 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2023-08-15 00:00:00
+MK,2176,WC066,MKRF2,2023-06-05 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-06-21 00:00:00
+MK,2162,WC241,MK15,2023-05-17 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,2023-08-11 00:00:00
+MK,2152,WC087,MK04,2023-05-12 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,2023-08-11 00:00:00
+MK,2437,WC144,MK13,2023-08-15 00:00:00,NNW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.54,0,0,,
+MK,1805,WC230,MK16,2022-08-19 00:00:00,N/A,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,2023-06-07 00:00:00
+MK,1338,WC094,MK15,2021-05-28 00:00:00,S-facing,None,"Trail, game",Wildlife Damage,t,0,100,100,1,0.78,0,0,,2021-10-29 00:00:00
+MK,1783,WC104,MK02,2022-08-03 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2023-05-12 00:00:00
+MK,2164,WC270,MK14,2022-08-03 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.85,0,0,,2023-05-17 00:00:00
+MK,2168,WC346,MK08,2022-08-19 00:00:00,Camera was replaced in lockbox after batteries were found to be corroded due to significant water presence that had leaked inside the camera. ,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-05-17 00:00:00
+MK,2170,WC091,MK03,2022-08-19 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2023-05-17 00:00:00
+MK,2153,WC071,MKRF4,2023-05-12 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-06-05 00:00:00
+MK,2260,WC082,MK12,2023-06-21 00:00:00,"NW-facing
+rock piling vehicles likely destroyed tree/ buried camera ",None,"Road, paved",Lost,f,1,100,100,1,1.13,0,0,,2023-05-17 00:00:00
+MK,2177,WC070,MKRF3,2023-06-05 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-07-26 00:00:00
+MK,2256,WC144,MK13,2023-06-21 00:00:00,NNW-facing,None,"Road, dirt",Active in field,t,0,100,100,1,1.54,0,0,,2023-08-15 00:00:00
+MK,1807,WC167,MK17,2022-08-19 00:00:00,Note that damage to Road R means it is inaccessible by car so you have to walk 1.2 km to the camera. ,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,2023-06-07 00:00:00
+MK,2150,WC135,MK01,2023-05-12 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2023-07-26 00:00:00
+MK,2154,WC200,MK05,2023-05-12 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,2023-08-11 00:00:00
+MK,366,WC346,MK08,2021-06-24 00:00:00,Camera was replaced in lockbox after batteries were found to be corroded due to significant water presence that had leaked inside the camera. ,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2021-10-29 00:00:00
+MK,1852,WC343,MKRF1,2022-08-30 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2023-04-23 00:00:00
+MK,2429,WC189,MK10,2023-08-15 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,t,1,100,100,1,0.67,0,0,3.89,
+MK,2169,WC346,MK08,2023-05-17 00:00:00,Camera was replaced in lockbox after batteries were found to be corroded due to significant water presence that had leaked inside the camera. ,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-08-11 00:00:00
+MK,2146,WC343,MKRF1,2023-04-23 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2023-06-05 00:00:00
+MK,2147,WC066,MKRF2,2023-04-23 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-06-05 00:00:00
+MK,2258,WC066,MKRF2,2023-06-21 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-07-26 00:00:00
+MK,2171,WC091,MK03,2023-05-17 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2023-08-11 00:00:00
+MK,2156,WC213,MK06,2023-08-11 00:00:00,N facing; minor crack in glass,None,"Road, paved",Camera Hardware Failure,f,1,100,100,1,1,0,0,,2023-08-11 00:00:00
+MK,2430,WC350,MK11_reset,2023-08-15 00:00:00,N-facing,None,"Trail, game",Active in field,t,0,100,100,1,1.75,0,0,,
+MK,2401,WC070,MKRF3,2023-07-26 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-08-15 00:00:00
+MK,2402,WC071,MKRF4,2023-07-26 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-08-15 00:00:00
+MK,346,WC170,MK02,2020-05-08 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2020-08-28 00:00:00
+MK,2259,WC071,MKRF4,2023-06-21 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-07-26 00:00:00
+MK,2414,WC162,MK09,2023-08-11 00:00:00,"E facing, lockbox ",None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,2417,WC091,MK03,2023-08-11 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,
+MK,2419,WC230,MK16,2023-08-11 00:00:00,N/A,None,"Trail, game",Active in field,t,0,100,100,1,2,0,0,,
+MK,2427,WC242,MK14,2023-05-17 00:00:00,N-facing,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-08-11 00:00:00
+MK,2431,WC343,MKRF1,2023-08-15 00:00:00,N/A. ,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,
+MK,2399,WC343,MKRF1,2023-07-26 00:00:00,N/A. ,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2023-08-15 00:00:00
+MK,2400,WC066,MKRF2,2023-07-26 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,2023-08-15 00:00:00
+MK,2435,WC135,MK01,2023-08-15 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,
+MK,2436,WC104,MK02,2023-08-15 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,
+MK,2413,WC132,MK09,2023-06-07 00:00:00,"E facing, added lockbox; misfire issues filled up SD card",None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-06-26 00:00:00
+MK,1602,WC104,MK02,2022-05-30 00:00:00,Cedar/alder stand with intermediate shrubby undergrowth,None,"Road, dirt",Active in field,t,1,100,100,1,0.81,0,0,4.12,2022-08-03 00:00:00
+MK,865,WC091,MK03,2021-04-11 00:00:00,"Facing SE, perpendicular to road",None,"Road, dirt",Active in field,t,0,100,100,1,0.82,0,0,,2022-02-18 00:00:00
+MK,881,WC189,MK10,2021-06-11 00:00:00,Hemlock/cedar/douglas fir/vine maple stand with moderate-low shrub/fern understory,None,"Trail, game",Active in field,t,1,100,100,1,0.67,0,0,3.89,2022-05-11 00:00:00
+MK,2415,WC085,MK12_reset,2023-08-11 00:00:00,south facing,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,2416,WC241,MK15,2023-08-11 00:00:00,S-facing,None,"Trail, game",Active in field,t,0,100,100,1,0.78,0,0,,
+MK,2420,WC348,MK07,2023-06-07 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-08-11 00:00:00
+MK,2421,WC348,MK07,2023-08-11 00:00:00,E facing (facing upslope of a hill that should block majority of sunlight),None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,2422,WC200,MK05,2023-08-11 00:00:00,Facing S,None,"Road, paved",Active in field,t,0,100,100,1,0.54,0,0,,
+MK,2423,WC087,MK04,2023-08-11 00:00:00,Facing N,None,"Trail, game",Active in field,t,0,100,100,1,0.74,0,0,,
+MK,2424,WC213,MK06,2023-05-12 00:00:00,N facing,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,2023-08-11 00:00:00
+MK,2426,WC167,MK17,2023-08-11 00:00:00,Note that damage to Road R means it is inaccessible by car so you have to walk 1.2 km to the camera. ,None,"Trail, game",Active in field,t,0,100,100,1,1.77,0,0,,
+MK,2428,WC242,MK14,2023-08-11 00:00:00,N-facing,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,2432,WC066,MKRF2,2023-08-15 00:00:00,N/A,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,
+MK,2403,WC135,MK01,2023-07-26 00:00:00,HLPXEL10022576,None,"Trail, hiking/people",Active in field,t,1,100,100,1,0.85,0,0,,2023-08-15 00:00:00
+MK,2257,WC343,MKRF1,2023-06-21 00:00:00,N/A.,None,"Road, paved",Active in field,t,1,100,100,1,1,0,0,,2023-07-26 00:00:00
+MK,2418,WC346,MK08,2023-08-11 00:00:00,Camera was replaced in lockbox after batteries were found to be corroded due to significant water presence that had leaked inside the camera. ,None,"Road, paved",Active in field,f,1,100,100,1,1,0,0,,
+MK,2433,WC070,MKRF3,2023-08-15 00:00:00,N/A.,None,"Trail, hiking/people",Active in field,t,1,100,100,1,1,0,0,,
+MK,1336,WC174,MK13,2021-05-28 00:00:00,doug/cedar stand,None,"Road, paved",Wildlife Damage,t,1,100,100,1,0.53,0,0,3.93,2021-11-11 00:00:00

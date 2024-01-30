@@ -1,0 +1,45 @@
+station_tbl_id,station_id,project_id,latitude,longitude,site_location,site_comments
+90,MK04,MK,49.3488,-122.556,"020 on grey GPS. Open (no undergrowth) area of approximately 50m X 50m ~100m from Katherine Lake. Poised up on ridge that drops down to lake, so steep slopes around the area. Landscape outside open area surrounded by dense shrubby undergrowth. Mixed conifer forest (hemlock, larch, douglas fir). Clear sight lines, no vegetation to trim. ",Bear scat ~10m from cam -- no signs of human activity aside from the decommissioned road used to navigate to the area (but that's likely not been used for several years now).
+88,MK02,MK,49.319,-122.597,"400m elevation. On-road (~3m from road) in a predominantly cedar-hemlock forest (mixed conifer) with little undergrowth. Clear sight lines, perpendicular to road, just up the road from cutblock.","No signs of wildlife, other than a deer with two fawns noted approx. 1km away on road. Current road (but near the end of the road), so human activity is possible.
+
+"
+121,MK06,MK,49.34,-122.543,"On road H, next to future (2021) thinning site. Uneven terrain with a somewhat sloped road running through it. Mostly sparse understory in a mixed conifer (subalpine/grand fir, hemlock) forest. Clear sight lines.",No signs of wildlife. Human activity prevalent.
+123,MK08,MK,49.2907,-122.549,"Approximately 30 degree sloped hill. Camera mounted on hemlock directly in the middle of a game trail. Trail runs perpendicular to the slope of the hill. Moderate (knee-height) understory in a mixed conifer (hemlock-dominant) forest. Sight lines cleared of ferns on arrival, but may require furhter maintenance in the future.","Game trail evident - no scat noted. No H.A. visible, aside from flagging ~150m uphill."
+124,MK09,MK,49.3105,-122.542,"*031 on grey GPS
+
+On road (B-area) in future thinning area. Moderately (20-30 degree) sloped hill - road runs perpendicular to slope. Clear sight lines - mild vegetation control. Mixed conifer (fir dominant) forest with medium understory.",Bear scat ~150m down road - human activity obvious
+125,MK10,MK,49.2851,-122.589,"Approximately 20m from a creek, nested in a slight gulley. Small understory in a medium age, doug fir/hemlock forest. ",Little sign of wildlife (vague game trails). Old (very old) logging activity visible. *Mosquito repellent and machete advised for checks.
+126,MK11,MK,49.2963,-122.594,"On hilltop near previous cutblocks. Upslope from Goose Lake. Approx. 40m from very small tributary. Sight lines cleared (small ferns may need additional maintenance later). Mixed conifer forest (fir, hemlock); medium-tall understory with very thorny bushes.","Bear scat in immediate vicinity; sporadic flagging throughout area, but it's unclear what exactly it's for (several colors, no real trail). Vague trails through site, possibly game or human."
+127,MK12,MK,49.2808,-122.568,"Open space with seemingly large human presence. Evidence of rock-blasting and litter (40-50 cardboard boxes piled nearby -- likely in sight of camera shot). Clear sight lines in a mixed conifer (douglas, fir, hemlock) forest (around edges of open space). Medium understory in surrounding forest.",Coyote adult and pup in open space on arrival to site. Human activity dominant.
+128,MK13,MK,49.3071,-122.578,"On road E10 (heads to radio tower). Decent slope of around 30 degrees with heavy downfall and minimal understory. Clear sight lines in a mixed conifer (primary doug fir, some hem) forest. ",Bear scat on road; coyote/dog scat next to cam. Human activity obvious.
+130,MK14,MK,49.3055,-122.556,"Open area amidst medium age forest. Atop a hill approximately 200m south of previous logging area (decent sized cutblock). Clear sight lines, minimal-no understory in a mixed conifer (douglas fir, hemlock) forest. ","Bear scat in immediate vicinity (two distinct piles); strong game trails throughout area; no human activity. Lock malfunction upon deployment (could not operate lock with any of the four keys I had with me), so camera is not locked."
+226,MKRF2,MK,49.2706,-122.572,"Side trail off Yellow trail, 30 m from creek
+",
+132,MK17,MK,49.3563,-122.533,"On a decent (~40 degree) slope at the edge of a previously thinned forest/cutblock. Just Northeast (but largely east) of the cutblock, western edge of the thinning area. Moderate canopy in a medium-young age forest. Approximately 100m from road. Clear sight lines with heavy CWD in a mixed conifer (hemlock, cedar, douglas fir) forest with no understory.",Prominent game trail noted; occasional flagging--likely from previous logging/thinning operations.
+131,MK16,MK,49.3398,-122.533,"On steep (~40 degree) slope just North of cutblock in shady (full canopy) mixed conifer (hemlock, douglas fir, cedar) forest with nearly no undergrowth. Likely a previous thinning area. Clear sight lines.",Some game trails visible (sporadic); bear scat ~30m away; human activity limited to very old logging equipment (large rusty cables buried halfway in hillside)
+227,MKRF3,MK,49.2729,-122.566,"Blue trail
+",
+228,MKRF4,MK,49.2689,-122.568,"Side trail between Green and Yellow trails
+",
+225,MKRF1,MK,49.2686,-122.582,"Blue trail, in flat area before creek",
+129,MK15,MK,49.285,-122.563,Somewhat dense forest with sporadic opening. Approximately 50m west of small creek and approximately 100m NW of trail to shed that houses waterflow meters. Sight lines cleared; will likely need more attention later in season. Forest is mixed conifer (douglas fir/grand fir) with medium (knee-height) understory.,"Little-to-no sign of wildlife (vague game trails); some flagging nearby (looks like another research project); near waterflow measurement hut
+On 2021-10-29 camera was replaced and moved to a new tree as the FOV was obscured by a fallen tree (approx height: 0.75m, distance from target path: 2.7m, visibility: 15+m)
+"
+727,MK11_reset,MK,49.2963,-122.594,"Same as MK11: On hilltop near previous cutblocks. Upslope from Goose Lake. Approx. 40m from very small tributary. Sight lines cleared (small ferns may need additional maintenance later). Mixed conifer forest (fir, hemlock); medium-tall understory with very thorny bushes.","Jamie and Isla visited MK11 on June 11, 2021. The camera showed signs of wildlife damage; we tried to remove it, but its lock was stuck. We therefore moved the damaged camera up the tree, and installed a lockbox and deployed a new camera (MK11_reset) in the original location of the damaged camera. MK11 and MK11_reset were both active from June 11, 2021, until they were visited again on October 29, 2021. On October 29, 2021, MK11 was removed.
+
+MK11_reset therefore replaces MK11 after June 11, 2021.
+
+Same as MK11: Bear scat in immediate vicinity; sporadic flagging throughout area, but it's unclear what exactly it's for (several colors, no real trail). Vague trails through site, possibly game or human."
+89,MK03,MK,49.318,-122.547,"309m in elev. Old road--not logging though--perhaps lake access? Somewhat dense forest around site (mixed conifer and alder), medium understory. Sight lines clear, vegetation non-existent in front of cam (on road). ","Definite signs of human activity, but likely older (old wooden posts thrown onto side of road, worn tarps nearby). No sign of wildlife.
+"
+122,MK07,MK,49.3314,-122.53,On road R20 near previous cut-blocks. Road runs perpendicular to slope of a rather large hill. Clear sight lines. Mixed conifer (mostly hemlock) with sparse undergrowth.,"Numerous bear scat along road, human activity obvious (road used for access to previous logging area).
+18-MAY-2022 check - camera was not armed so no media was collected on 19-AUG-2022"
+91,MK05,MK,49.3304,-122.57,"021 on grey GPS. Open area (100m x 100m) amidst shrubby undergrowth landscape. Variable landscape (slopes and hills) with several ideal corridors for wildlife travel to/from water sources. Approx. 29m N of Gwendoline Lake, and 79m S of Betsy Lake. Mixed conifer forest--primarily larch, with few douglas fir sprinkled in the mix. Clear sightlines, little vegetation.","Bear scat ~20m away from cam -- no sign of human activity in immediate vicinity.
+Motion detection light not working during walktest. "
+87,MK01,MK,49.2776,-122.554,"On road A-50; a few 100m past drivable portion of road. Open sight lines, perpendicular to road, approx. 5m from road. Surrounding habitat cedar/hemlock/fir second growth. Dense understory.","No signs of wildlife, semi-decommissioned road.
+
+- no timelapse for 2021 or 2022?
+
+- unknown failure did not stop camera operational period"
+879,MK12_reset,MK,49.2814,-122.568,"south-facing, on sole tree on 'median' of logging roads, facing gravel pit 
+elevation 277m","re-stationed nearby old location of MK12, had to be repositioned due to gravel dumping obstructing view and destroying old camera "
